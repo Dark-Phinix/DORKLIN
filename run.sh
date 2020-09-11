@@ -1,6 +1,10 @@
 echo "Installing..."
 sleep 2
 unzip FB.zip
+mkdir FB
+mv fb.py FB
+
+mv install.txt FB
 apt update
 apt upgrade
 apt install git
@@ -11,6 +15,7 @@ apt install vim
 pip install --upgrade
 pip install requests
 pip install request
+
 pip install colorama
 chmod +x *
 python3 DORKLIN
