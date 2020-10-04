@@ -238,7 +238,7 @@ def PBF():
     fni=input("Do you want Brute Force right now:")
     if "y" == fni:
         #if y so start brute force
-        os.system(" python3 DarkPBF.py")
+        os.system(" python2 brute.py")
         #or else so just save this file
     else:
         print("Passlist are created as",fn+".txt")
